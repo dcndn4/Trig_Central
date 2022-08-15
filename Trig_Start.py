@@ -103,6 +103,25 @@ r=.233333+.0013333
 # 5.235
 #%%
 
+# sin - built in to math module of course, but to use for angle degrees, have to add (math.radians__) in place of number
+# regular number as argument is number, not angle degrees
+
+# sine is ratio of opposite side/hypotenuse
 
 
+start=math.sin((math.radians(10)))
+monday=math.sin((math.radians(40)))
+#%%
+
+# tan - same functionality
+# tangent = ratio of opposite side/adjacent side
+
+mond=math.tan((math.radians(25)))
+
+#%%
+
+# cos - same
+# cosign = adjacent side / hypotenuse
+
+mon=math.cos((math.radians(5)))
 
